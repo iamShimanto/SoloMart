@@ -1,4 +1,4 @@
-import { RequestHandler, response } from "express";
+import { RequestHandler } from "express";
 import { responseHandler } from "../utils/responseHandler";
 import { isValidEmail } from "../utils/validator";
 import User from "../models/user.model";
