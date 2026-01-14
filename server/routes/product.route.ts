@@ -6,5 +6,6 @@ const router = Router();
 
 router.get("/", protectedRoute, adminRoute, product.getAllProducts);
 router.get("/featured", product.getFeaturedProducts)
+router.post("/create", protectedRoute, adminRoute, product.createProduct)
 
 export default router;

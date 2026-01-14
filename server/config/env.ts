@@ -6,5 +6,8 @@ export const env = cleanEnv(process.env, {
   MONGODB_URL: str(),
   UPSTASH_REDIS_URL: str(),
   JWT_ACCESS_SECRET: str(),
-  JWT_REFRESH_SECRET: str()
+  JWT_REFRESH_SECRET: str(),
+  CLOUDINARY_CLOUD_NAME: str(),
+  CLOUDINARY_API_KEY: str(),
+  CLOUDINARY_API_SECRET: str(),
 });
